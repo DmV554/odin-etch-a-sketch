@@ -1,3 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+.cc_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -6,12 +21,17 @@
 
 .contenedor-cuadrado {
     display: flex;
-    
 
 }
 
 .cuadrado {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(61, 112, 156);
+    /*background-color: rgb(61, 112, 156);*/
+    border: 1px solid;
+}
+
+.cont-bot {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
